@@ -24,8 +24,7 @@ export default function About() {
         passion for programming. I enrolled in Java Full Stack Developer course and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        problem-solving aspect. I love figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
           Java, Spring Boot, React.js, SQL

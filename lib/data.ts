@@ -82,8 +82,10 @@ export const skillsData = [
   "React.js",
   "HTML",
   "CSS",
+  "Boostrap",
   "JavaScript",
   "SQL",
   "Hibernate",
-  "Spring Boot"
+  "Spring Boot",
+  "Git"
 ] as const;
