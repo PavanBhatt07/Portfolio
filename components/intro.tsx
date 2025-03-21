@@ -64,8 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Pavan Bhat.</span> I have completed my{" "}
         <span className="font-bold">Bachelor of Engineering</span> in the stream of{" "}
-        <span className="font-bold">Information Science and Engineering</span>. I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">Information Science and Engineering</span>. I am passionate about developing websites and applications, bringing ideas to life through technology.
       </motion.h1>
 
       <motion.div
@@ -90,16 +89,16 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Pavan_Bhat.pdf"
           download
         >
-          Download CV{""}
+          Download Resume{""}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="linkedin.com/in/pavanbhatav"
+          href="https://www.linkedin.com/in/pavanbhatav/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +106,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="github.com/PavanBhatt07"
+          href="https://www.github.com/PavanBhatt07"
           target="_blank"
         >
           <FaGithubSquare />

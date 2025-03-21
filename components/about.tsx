@@ -23,7 +23,7 @@ export default function About() {
         <span className="font-medium">Information Science and Engineering</span>, I decided to pursue my
         passion for programming. I enrolled in Java Full Stack Developer course and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        My favorite part of programming is the
         problem-solving aspect. I love figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
