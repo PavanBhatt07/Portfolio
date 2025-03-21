@@ -52,7 +52,7 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack-experiment
 
 /***/ }),
 
-/***/ 1170:
+/***/ 1844:
 /***/ ((module) => {
 
 "use strict";
@@ -398,16 +398,27 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5730:
+/***/ 5552:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2038));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6762));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3838));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4320));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2617));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3945));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 120));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6762))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2038));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 120))
+
+/***/ }),
+
+/***/ 6739:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2226));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 949));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3518));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9238));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 798))
 
 /***/ }),
 
@@ -419,17 +430,6 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6249, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8782, 23))
-
-/***/ }),
-
-/***/ 9704:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3518));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2226));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 949));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9238));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 798))
 
 /***/ }),
 
@@ -508,11 +508,7 @@ function About() {
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: "italic",
-                        children: "When I'm not coding"
-                    }),
-                    ", I enjoy playing video games, watching movies, and playing with my dog. I also enjoy",
+                    "When I'm not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy",
                     " ",
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                         className: "font-medium",
@@ -950,7 +946,7 @@ function Intro() {
                     ]
                 })
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.h1, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.h1, {
                 className: "mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl",
                 initial: {
                     opacity: 0,
@@ -960,25 +956,33 @@ function Intro() {
                     opacity: 1,
                     y: 0
                 },
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: "font-bold",
-                        children: "Hello, I'm Pavan Bhat."
-                    }),
-                    " I have completed my",
-                    " ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: "font-bold",
-                        children: "Bachelor of Engineering"
-                    }),
-                    " in the stream of",
-                    " ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: "font-bold",
-                        children: "Information Science and Engineering"
-                    }),
-                    ". I am passionate about developing websites and applications, bringing ideas to life through\xa0technology."
-                ]
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                    className: "font-sans text-2xl",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            className: "font-bold",
+                            children: "Hello, I'm Pavan Bhat."
+                        }),
+                        " I have completed my",
+                        " ",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            className: "font-bold",
+                            children: "Bachelor of Engineering"
+                        }),
+                        " in the stream of",
+                        " ",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            className: "font-bold",
+                            children: "Information Science and Engineering"
+                        }),
+                        ". ",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            className: "text-sm",
+                            children: "I am passionate about developing websites and applications, bringing ideas to life through\xa0technology."
+                        })
+                    ]
+                })
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
                 className: "flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium",
@@ -1448,14 +1452,12 @@ var react_experimental_ = __webpack_require__(7640);
 var react_experimental_default = /*#__PURE__*/__webpack_require__.n(react_experimental_);
 // EXTERNAL MODULE: ./node_modules/react-icons/fa/index.esm.js
 var index_esm = __webpack_require__(6775);
-// EXTERNAL MODULE: ./node_modules/react-icons/lu/index.esm.js
-var lu_index_esm = __webpack_require__(3759);
 ;// CONCATENATED MODULE: ./public/TIC.png
 /* harmony default export */ const TIC = ({"src":"/_next/static/media/TIC.bdf2dd00.png","height":1003,"width":1561,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgUlEQVR42mP4fDriy7mwv9e97h4puXu44O91byAXKMjw9UzUm2Mhlza5Hl1he3SF3cWNrkAuUJDh17m4qxt91C3MU5L8EhMCGTTNrm/yBQoy/D6bdHWdd3Jy8Mwp5UCUnBx4fb0PUJDh9+nUq2v8o2L8JvYUAlFktM/1tQG/T6cCAOp7RXtT3YRcAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./public/Fake.png
 /* harmony default export */ const Fake = ({"src":"/_next/static/media/Fake.adfe5698.png","height":940,"width":1892,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAbElEQVR42mNwFTMPYrANcvIODQ81MzYS4mFXlpNXk1ZkYBBmsLKx8HJ39ffwDvLx9XBx1lRSZJBiYIhgcCqvLO/v7e/t6pncP7EwJ4+BiyFWwYshhs/dxdMlJCDQ3NTGysTGVNeAQYwhis8NAGNtF3olBxUWAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":4});
 ;// CONCATENATED MODULE: ./public/Canteen.png
-/* harmony default export */ const Canteen = ({"src":"/_next/static/media/Canteen.3faa1d69.png","height":1200,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAg0lEQVR42mOYN3/+tKlTZs+cOWvGrPnzFy5YuGTa9Blz5s5lkGVgUGZjyCuobuuYWFndmpxexAAB9+/duXPn5skj+48cOXTq+KGLpw7evnPr7t3bDP/B4PGNM7duXHp0/8bL+1cgIgz37t25dfvm3h3rz+xYt3vt8vVrVt++c/ve3TsAZ5pRCrp/zgcAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+/* harmony default export */ const Canteen = ({"src":"/_next/static/media/Canteen.2e9fe5a9.png","height":1023,"width":1863,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAbklEQVR42mNQkWEw1xZOjE3JzizMySuPT8rlEpdgAIIZ0/pnz5y2fMXajZu2rVixavHixRMm9vf39zH8////z+8fN87uP3v+5N1bl57fOfcfDBh+//75/duXO1dOPbl+/vr5UxfPnfr568fvXz8A4tQ//nb7kfYAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":4});
 ;// CONCATENATED MODULE: ./lib/data.ts
 
 
@@ -1491,18 +1493,18 @@ const links = [
 ];
 const experiencesData = [
     {
-        title: "Android Development Internship",
-        location: "Bangalore",
-        description: "I have completed my internship at Prodigy InfoTech, where I worked in a support role in Android development.",
-        icon: react_experimental_default().createElement(lu_index_esm/* LuGraduationCap */.qWM),
-        date: "2024"
-    },
-    {
         title: "Data Science Internship",
         location: "Bangalore",
         description: "I am currently pursuing another internship at Infotact Solution in the field of Machine Learning, gaining hands-on project experience.",
-        icon: react_experimental_default().createElement(index_esm/* FaReact */.huN),
+        icon: react_experimental_default().createElement(index_esm/* FaBrain */.Qkp),
         date: "2025 - present"
+    },
+    {
+        title: "Android Development Internship",
+        location: "Bangalore",
+        description: "I have completed my internship at Prodigy InfoTech, where I worked in a support role in Android development.",
+        icon: react_experimental_default().createElement(index_esm/* FaAndroid */.q2m),
+        date: "2024"
     }
 ];
 const projectsData = [
@@ -1774,7 +1776,7 @@ var dist = __webpack_require__(9035);
 
 const metadata = {
     title: "Pavan | Personal Portfolio",
-    description: "Ricardo is a full-stack developer with 8 years of experience."
+    description: "Turning ideas into powerful digital solutions! \uD83D\uDE80"
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ jsx_runtime_.jsx("html", {
@@ -2071,7 +2073,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,492], () => (__webpack_exec__(5084)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,282], () => (__webpack_exec__(5084)));
 module.exports = __webpack_exports__;
 
 })();

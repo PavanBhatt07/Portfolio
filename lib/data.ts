@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaBrain } from "react-icons/fa";
+import { FaAndroid } from "react-icons/fa";
 import TIC from "@/public/TIC.png";
 import Fake from "@/public/Fake.png";
 import Canteen from "@/public/Canteen.png";
@@ -35,21 +35,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Android Development Internship",
-    location: "Bangalore",
-    description:
-      "I have completed my internship at Prodigy InfoTech, where I worked in a support role in Android development.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
-  },
-  {
     title: "Data Science Internship",
     location: "Bangalore",
     description:
       "I am currently pursuing another internship at Infotact Solution in the field of Machine Learning, gaining hands-on project experience.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaBrain),
     date: "2025 - present",
   },
+  {
+    title: "Android Development Internship",
+    location: "Bangalore",
+    description:
+      "I have completed my internship at Prodigy InfoTech, where I worked in a support role in Android development.",
+    icon: React.createElement(FaAndroid),
+    date: "2024",
+  },
+  
 ] as const;
 
 export const projectsData = [
